@@ -43,6 +43,31 @@ Além disso, foram realizados 2 testes, no primeiro foi utilizada a base toda pa
 
 2.3 Modelos
 
+Para o teste dos modelos foram escolhidos 12 métodos mais comuns de classificação, a saber: 
+
+Kneighbors (KNN) – É dos algoritmos mais comuns de classificação, ele classificada cada dado de acordo com a classe dos seus n vizinhos mais próximos, no caso em estudo foram utilizados os 5 vizinhos mais próximos.
+
+Naive Bayes (GNB) – Baseado no teorema de bayes é um classificador probabilístico que considera que cada atributo é independente e contribui para aumentar a probabilidade da amostra pertencer a uma classe. Para isso ele utiliza uma distribuição de probabilidade para cada atributo, no caso em estudo foi utilizado com base distribuições gaussianas. 
+
+Decision Tree ( DTC) – A árvore de decisão é um método de classificação que separa o conjunto em subconjuntos utilizando regras lógicas que separem seus atributos. 
+
+Random Forest (RFC) – Nesse método de classificação um conjunto de árvores de decisão são criados e a probabilidade do dado ser de uma classe pode ser entendido com o número de árvores que votaram naquela classe divido pelo número total de árvores, para obter diferentes árvores cada um dela recebe como treinamento um subset da massa original e também um subset dos parâmetros. 
+
+Linear Suport Vector Machine (SVM) – O método de máquina de vetor linear busca encontra o hiperplano que gera a maior separação entre os dados das duas distintas classes.  
+
+Regressão Logística (LRE) - A regressão logística é um algoritmo de classificação que prevê a probabilidade de uma classe utilizando uma função logística que varia entre zero e um com base nas variáveis de entrada. 
+
+Bagging Decision Tree (BGT) – O método de bagging, acrônimo para bootstrep e aggregation, assim como random forest é baseado na votação de diferentes modelos que são calibrados com subsets da massa de calibração original, porém nesse método dos os modelos recebem os atributos. Nesse caso foi utilizado um bagging de árvores de decisão.
+
+Boosting Decision Tree (BDT) - Também utiliza diversas árvores de decisão, porém nele as árvores não são paralelas, mas em sequência onde cada árvore recebe o resíduo da anterior. 
+
+Classificador XGBoost (XGB)-  Assim como o random forest utiliza diversas árvores de decisão, contudo a árvore utilizada, denominada CART tree (Classification and Regression trees) não divide em suas folhas os dados de forma categórica e sim de forma probabilística como cada nó atribuindo uma probabilidade de o dado pertencer a determinada classe.
+
+LightGBM (LGB) -  Também é baseado em conjuntos de árvores de decisão, porém suas árvores são construídas “Leap wise”, ou seja, a árvore cresce apenas no ramo que causa a menor redução de perda global, ao contrário das árvores tradicionais  “Level wise” que cada 
+
+RNN - > Rede Neural
+
+
 
 ### 3. Resultados
 
