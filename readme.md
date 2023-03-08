@@ -107,7 +107,7 @@ A tabela 1 apresenta o percentual de dados inconsistentes e pode-se destacar que
 
 </center>
 
-O código [TCC_BI_modelos.ipnyb](TCC_BI_MASTER_Analise_Dados.ipynb) contém a primeira rodada de teste que foi realizada sem o pré-processamento descrito [anteriormente](#2.2-Tratamento-dos-dados). Todos os métodos foram executados com 50 combinações diferentes de massa de dados/massa de testes sempre na proporção (80-20). As figuras 5 e 6 contém a média e o intervalo de confiança do *Recall* e *Precision* para detecção da inconsistência, com probabilidades  entre 0,5 e 0,01 do dado pertencer a essa classe. 
+O código [TCC_BI_Modelos_sem_pre_processamento.ipynb](TCC_BI_Modelos_sem_pre_processamento.ipynb) contém a primeira rodada de teste que foi realizada sem o pré-processamento descrito [anteriormente](#2.2-Tratamento-dos-dados). Todos os métodos foram executados com 50 combinações diferentes de massa de dados/massa de testes sempre na proporção (80-20). As figuras 5 e 6 contém a média e o intervalo de confiança do *Recall* e *Precision* para detecção da inconsistência, com probabilidades  entre 0,5 e 0,01 do dado pertencer a essa classe. 
 
 |Fig 5: Recall teste 1|Fig 6: Precision teste 1|
 |:-:|:-:|
@@ -115,7 +115,7 @@ O código [TCC_BI_modelos.ipnyb](TCC_BI_MASTER_Analise_Dados.ipynb) contém a pr
 
 Como o esperado com *threshold* mais baixos o *recall* chega a muito próximo de 1 para varios métodos, contudo o precision cai e  alguns métodos o precision chega a tender a zero. A inspeção conjunta de ambos as figuras nos permite determinar que os métodos: RFC, BGT, XGB, LGB e RNE apresentaram os melhores resultados. Já os métodos DTC e KNN apresentaram baixos *recalls* enquantos os métodos LRE, GNB, BDT e SVM apresentaram baixos *precisions*. Outro ponto de destaque é o grande intervalo de confiança da RNE indicando que talvez seja necessário melhorar a estrutura da rede ou adicionar algum método de *early stop*.
 
-O teste 2 realizado com o código [TCC_BI_modelos_2.ipnyb](TCC_BI_MASTER_Analise_Dados_2.ipynb) incluiu o pré-processamento dos dados já [descrito.](#2.2-Tratamento-dos-dados) Como no teste anterior as figuras 7 e 8 contém  a média e o intervalo de confiança do *Recall* e *Precision* para detecção da inconsistência de todos os métodos com o *threshold* variando de 0,5 a 0,01. A inclusão do pré-processamento alterou marginalmente o resultado e todas as considerações realizadas no teste 1 continuaram validas no teste 2. 
+O teste 2 realizado com o código [TCC_BI_modelos_com_pre_processamento.ipnyb](TCC_BI_modelos_com_pre_processamento.ipnyb) incluiu o pré-processamento dos dados já [descrito.](#2.2-Tratamento-dos-dados) Como no teste anterior as figuras 7 e 8 contém  a média e o intervalo de confiança do *Recall* e *Precision* para detecção da inconsistência de todos os métodos com o *threshold* variando de 0,5 a 0,01. A inclusão do pré-processamento alterou marginalmente o resultado e todas as considerações realizadas no teste 1 continuaram validas no teste 2. 
 |Fig 7: Recall teste 2|Fig 8: Precision teste 2|
 |:-:|:-:|
 |![](./Imagens/RECALL_teste1.png)|![](./Imagens/PRECISION_teste1.png)|
