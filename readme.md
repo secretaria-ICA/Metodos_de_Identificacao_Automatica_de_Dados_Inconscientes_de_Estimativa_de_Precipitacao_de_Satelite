@@ -120,7 +120,7 @@ O teste 2 realizado com o código [TCC_BI_modelos_2.ipnyb](TCC_BI_MASTER_Analise
 |:-:|:-:|
 |![](./Imagens/RECALL_teste1.png)|![](./Imagens/PRECISION_teste1.png)|
 
-Como os resultados dos melhores métodos é muito próximo em ambos os testes no código [TCC_Analise_Resultados.ipynb](TCC_BI_Analise_Resultados.ipynb) as médias de *Recall* e *Precision* para diferentes limiares de probabilidade foram agregadas nas tabelas 2 e 3. Com a comparação númerica é pode-se destacar o método do pacote XBoost como o mais promissor para testes futuros.
+Como os resultados dos melhores métodos é muito próximo em ambos os testes no código [TCC_Analise_Resultados.ipynb](TCC_BI_Analise_Resultados.ipynb) as médias de *Recall* e *Precision* para diferentes limiares de probabilidade foram agregadas nas tabelas 2 e 3. Com a comparação númerica pode-se destacar o método do pacote XBoost como o mais promissor para testes futuros.
 
 <center>
 
