@@ -1,4 +1,4 @@
-# Métodos de identificação automática de dados de estimativa de precipitação de satélite incosistentes
+# Métodos de identificação automática de dados inconscientes de estimativa de precipitação de satélite
 
 #### Aluno: Hugo Bernardo Barros Torraca (https://github.com/HugoTorraca)
 #### Orientadora: Evelyn Batista (https://github.com/evysb).
