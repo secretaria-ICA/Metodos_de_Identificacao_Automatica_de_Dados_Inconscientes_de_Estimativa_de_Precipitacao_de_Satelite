@@ -1,4 +1,4 @@
-# Métodos de identificação automática de dados inconscientes de estimativa de precipitação de satélite
+# Metodos_de_Identificacao_Automatica_de_Dados_Inconscientes_de_Estimativa_de_Precipitacao_de_Satelite
 
 #### Aluno: Hugo Bernardo Barros Torraca (https://github.com/HugoTorraca)
 #### Orientadora: Evelyn Batista (https://github.com/evysb).
